@@ -5,7 +5,7 @@ import HomeView from '@/views/HomeView.vue'
 </script> 
   
 <template> 
-  <AppHeader /> 
-  <main id="contenu"><HomeView /></main> 
-  <AppFooter /> 
+<AppHeader /> 
+<main id="contenu"><RouterView /></main> 
+<AppFooter /> 
 </template> 
